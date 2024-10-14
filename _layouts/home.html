@@ -1,0 +1,146 @@
+---
+---
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Honk&family=Paytone+One&family=Rubik+Glitch+Pop&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet"
+  />
+
+<style>
+
+	:root {
+	  	--green: #28c074;
+	  	--red: #ff4062;
+	  	--black: #202020;
+	  	--white: #ffffff;
+	  	--gray: #7a7a7a;
+	}
+	body {
+    padding:0;
+    margin:0;
+}
+	.catchphrase{
+		display: inline-block;
+		font-family: "Josefin Sans", sans-serif;
+		font-size: 20px;
+		height: auto;
+		width:  200px;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		line-height: 110%;
+		vertical-align: middle;
+		margin-right: 8px;
+		margin-top: 2px;
+		color: var(--white);
+		background-color: var(--black);
+	}
+	.latest{
+		display: inline-block;
+		font-family: "Josefin Sans", sans-serif;
+		font-size: 20px;
+		height: auto;
+		width:  200px;
+		text-align: center;
+		padding-top: 21px;
+		padding-bottom: 21px;
+		line-height: 110%;
+		vertical-align: middle;
+		margin-top: 2px;
+		margin-right: 10px;
+		color: var(--white);
+		background-color: var(--black);
+	}
+	.arinPortrait{
+
+		position: absolute;
+		top: 22px; left: 435px;
+	}
+
+	h1{
+		font-family: "Josefin Sans", sans-serif;
+		font-size: 70px;
+		height: 90px;
+		width:  412px;
+		margin-bottom: 10px;
+		text-align: center;
+		line-height: 160%;
+		vertical-align: middle;
+		margin-top: 10px;
+		color: var(--white);
+		background-color: var(--black);
+	}
+	.sidebar{
+		width: 250px;
+		height: 100%;
+		padding: 16px;
+		top: 0;
+		left: 0;
+		color: #f4f4f4;
+		background-color: #181818;
+		overflow-x: hidden;
+		font-size: 14px;
+		display: inline-block;
+		position: fixed;
+	}
+
+	.mainText{
+		font-family: "Josefin Sans", sans-serif;
+		width: 700px;
+		padding: 12px;
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 294px;
+		min-height: calc(100% - 32px);
+	}
+
+	details > summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+</style>
+
+
+
+
+
+	<div class = "sidebar">
+		<details>
+			<summary>test1</summary>
+			<p>
+			  	<ul>
+			  		{% for cat in site.categories %}
+
+					    {% for post in cat[1] %}
+						    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					    {% endfor %}			
+
+				    {% endfor %}
+				</ul>
+			</p>
+		</details>
+	</div>
+
+	<div class = "mainText">
+
+		{{content}}	
+
+	</div>
+
+
