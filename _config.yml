@@ -32,6 +32,77 @@ theme: minima
 plugins:
   - jekyll-feed
 
+defaults:
+  - scope:
+      path: "assets/images/photos"
+    values:
+      phot: 0
+  - scope:
+      path: "assets/images/photos/1"
+    values:
+      phot: 1
+      postD: August 15, 2024 
+  - scope:
+      path: "assets/images/photos/2"
+    values:
+      phot: 2
+      postD: June 9, 2024
+  - scope:
+      path: "assets/images/photos/3"
+    values:
+      phot: 3
+      postD: December 21, 2023
+  - scope:
+      path: "assets/images/photos/4"
+    values:
+      phot: 4
+      postD: November 30, 2023
+  - scope:
+      path: "assets/images/photos/5"
+    values:
+      phot: 5
+      postD: October 9, 2023
+  - scope:
+      path: "assets/images/photos/6"
+    values:
+      phot: 6
+      postD: August 12, 2023
+  - scope:
+      path: "assets/images/photos/7"
+    values:
+      phot: 7
+      postD: May 19, 2023
+  - scope:
+      path: "assets/images/photos/8"
+    values:
+      phot: 8
+      postD: May 2, 2023
+  - scope:
+      path: "assets/images/photos/9"
+    values:
+      phot: 9
+      postD: March 26, 2023
+  - scope:
+      path: "assets/images/photos/10"
+    values:
+      phot: 10
+      postD: March 9, 2023
+  - scope:
+      path: "assets/images/photos/11"
+    values:
+      phot: 11
+      postD: February 19, 2023
+  - scope:
+      path: "assets/images/photos/12"
+    values:
+      phot: 12
+      postD: October 29, 2022
+  - scope:
+      path: "assets/images/art"
+    values:
+      art: true
+      
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -1,0 +1,43 @@
+
+
+	<div class = "sidebar">
+		Main: <br>
+		 &nbsp;&nbsp;&nbsp;# <a href="/index" >Home</a> <br>
+		 &nbsp;&nbsp;&nbsp;# <a href="/nav">Navigation</a> <br>
+		 &nbsp;&nbsp;&nbsp;# <a href="ee">Games</a> <br>
+		 &nbsp;&nbsp;&nbsp;# <a href="ee">Contact</a> <br>
+<br><hr/><br>
+
+		Blog: <br>
+		 <details>
+			<summary><span  class = "fakeLink">Roundups</span></summary>
+			<p>
+			  	<ul>
+			  		{% for cat in site.tags %}
+
+					    {% for post in cat[1] %}
+						    {% if post.tags[0] == "Roundup" %}
+							  &nbsp;&nbsp;#&nbsp; <a href="{{ post.url }}">{{ post.short }}</a> <br>
+							{% endif %}	   
+					    {% endfor %}			
+
+				    {% endfor %}
+				</ul>
+			</p>
+		</details>
+		&nbsp;&nbsp;&nbsp;# <a href="/happenings" >Happenings</a> <br>
+
+<br><hr/><br>
+
+		Works: <br>
+		 &nbsp;&nbsp;&nbsp;# <a href="/art" >Physical Art</a> <br>
+		 &nbsp;&nbsp;&nbsp;# <a href="ee">Pixels</a> <br>
+		 &nbsp;&nbsp;&nbsp;# <a href="ee">Piano</a> <br>
+		 &nbsp;&nbsp;&nbsp;# <a href="/photos">Photgraphy</a> <br>
+
+<br><hr/><br>
+	Misc: <br>
+		 &nbsp;&nbsp;&nbsp;# <a href="/index" >Gallery</a> <br>
+		 &nbsp;&nbsp;&nbsp;# <a href="ee">Web Toys</a> <br>
+		 
+	</div>
