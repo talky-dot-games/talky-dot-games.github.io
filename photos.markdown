@@ -1,7 +1,7 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+title: photos
 layout: home
 permalink: "/photos"
 ---
@@ -9,10 +9,11 @@ permalink: "/photos"
 
 
 
-### photography
+### *photography*
 
 
-<br>
+
+<div><br></div>
   Taking photos as I adventure<br>
   Lots of nature and abandoned buildings<br>
 

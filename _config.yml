@@ -101,6 +101,10 @@ defaults:
       path: "assets/images/art"
     values:
       art: true
+  - scope:
+      path: "assets/images/pixels"
+    values:
+      pixel: true
       
 
 # Exclude from processing.

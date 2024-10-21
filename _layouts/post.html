@@ -12,6 +12,18 @@
   />
 
 <style>
+
+	@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 	.blogImg {
 	    width: 80%;
 	    height: auto;
@@ -31,8 +43,9 @@
 	  	--lightbox-background-color: rgba(0, 2, 7, 0.9);
 	}
 	body {
-	    padding:0;
-	    margin:0;
+	    background: linear-gradient(133deg,#ffffff 40%,#cbffea);
+  background-size: 120% 120%;
+  animation: gradient-animation 30s ease infinite;
     }
     h1{
 		font-family: "Josefin Sans", sans-serif;
@@ -216,25 +229,37 @@ td {
 	  	font-size: 18px;
 	  	line-height: 25px;
 		list-style-type: '+ ';
-	  
-		color: green;
+
 	  	cursor: pointer;
 	}
 
 	details > summary:hover {
-		color: pink;
+		
 	  	cursor: pointer;
 	}
+
 	details > p {
+	
 	    padding: 0px;
 	}
 	details[open] > summary {
+
 		list-style-type: '+ ';
-		color: blue;
-	    margin-bottom: -17px;
+
+	    margin-bottom: -16px;
 
 	}
+	.fakeLink{
+		color:var(--green);
+		text-decoration: underline;
+		padding: 2px;
+	}
+.fakeLink:hover{
+			
+	  	color: var(--white);
+	  	padding: 2px;
 
+	}
 </style>
 
 

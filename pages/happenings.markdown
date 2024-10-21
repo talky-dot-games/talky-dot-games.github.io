@@ -1,7 +1,7 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: sirmilkman - happenings
+title: happenings
 layout: home
 permalink: "/happenings"
 ---
@@ -9,7 +9,7 @@ permalink: "/happenings"
 
 
 
-### Happenings
+### *happenings*
 
 
 
@@ -17,11 +17,8 @@ permalink: "/happenings"
 A feed of everything I'm doing!<br>
 Newest at the top. Oldest at the bottom.<br>
 
-Subscribe to the RSS feed!
+<a href="/rss.xml" class = "button">RSS Feed</a>
 
+| <b>Website Update</b> <br>October 19, 2024      | I overhauled my website completely! There's so much new stuff. Including this very page!|
 
-  
-
-
-| <b>Website Update</b> <br>October 19, 2024      | I overhauled my website completely! There's so much new stuff. Including this very page!                       |
-| <b><a href="google.com">Link Test</a></b> <br>October 19, 2024 | Testing if links work here.                 |
+<div><br><hr><br></div>
