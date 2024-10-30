@@ -1,0 +1,63 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: posts
+title: How To Make A Post
+postdate: October 29, 2024
+tags: mkmn
+author: sirmilkman
+permalink: "/how-to-make-a-post"
+
+---
+
+# File Structure #
+
+### Making A Post ###
+Posts are contained in the '\_posts' folder and new posts should be created there.
+When creating a post the file must be named as follows: 'yyyy-mm-dd-postname.markdown' If you want it to be easier, just copy '2024-10-29-template.markdown' into the '\_posts' folder from the '\_secret' folder. 
+
+### Post Info Config ###
+At the top of '2024-10-29-template.markdown' are the post info parameters. They function as follows:
+- layout: This should always be 'posts' otherwise the page won't display properly.
+- title: The title of the post displayed on the 'posts' dropdown menu and the top of the post.
+- postdate: The date the post was published. For consistancy's sake formatting should be Month DD, YYYY
+- tags: Page tags help organize it around the site. Author tags are: Morgan - mkmn, Alex - bmbx, Preston - flra 
+- author: The author credit displayed on the page. It can be any text
+- permalink: The link to the blog page. To prevent permalinks getting confused please make the permalink the article title in all lowercase seperated-by-hyphens.
+
+### Adding Images ###
+Images are contained in the 'assets/posts' folder
+When you create a blog that you want to have images in please create a new folder titled the same as the permalink. Your images go in there.
+Image titles should be generally simple just so its easy to link to them.
+A guide on adding images is later on.
+
+
+# Formatting #
+Pages are formatted with markdown. If you know how discord text formatting works, it's the same. There are a few custom changes tho.
+
+
+- Create a single line break by adding \<br> after the line.
+
+- Italicize text by surrounding it in asterisks \*Like This\*
+- Bold text by surrounding it in double asterisks \*\*Like This\*\*
+
+- Create headers by surrounding them in hashtags \#Like This\# 
+- Single hashtags are the largest header 
+- Double hashtags is the medium header 
+- Triple hashtags are the smallest header
+
+- Create image subtext by surrounding it in quad hashtags \#\#\#\#Like This\#\#\#\#
+- Create spoiler text by surrounding it in quint hashtags \#\#\#\#\#Like This\#\#\#\#\#
+
+- Add a link: \[Link Text in square brackets\](Link URL in parens)
+
+If you ever want to use a symbol that is trying to do markdown stuff prefix it with \\ and it will display normally.
+
+### Adding Images ###
+
+Since markdown doesn't have native image support, you're gonna have to learn a lil bit of html (sorry)<br>
+Just copy this code and change the defualt filepath to match the image you want. Be sure to include the \<br> in the copy if you want it to display correctly
+
+**\<br>\<img src="/assets/posts/postImgFolder/imgname.png">\<br>**
+

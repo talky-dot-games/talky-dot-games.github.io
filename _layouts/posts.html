@@ -1,0 +1,283 @@
+---
+---
+
+
+
+
+
+<script defer src="../js/gallery.js"></script>
+<link rel="stylesheet" href="../assets/css/dropdown.css" />
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap" rel="stylesheet">
+
+
+<title>sirmilkman - {{page.title}} </title>
+
+<style>
+
+:root{
+	--blue: #4d7afd;
+	--black: #000000;
+	--white: #ffffff;
+	--gray: #111111;
+	--ltgray: #888888;
+}
+
+ /* these are link colors */
+a:link {
+  color: var(--blue);
+}
+a:visited {
+  color: var(--blue);
+}
+a:hover {
+  color: var(--black);
+  background-color: var(--white);
+}
+a:active {
+  color: var(--blue);
+} 
+.outlink{
+	padding: 3px;
+	color: var(--white) !important;
+	font-weight: 600;
+}
+.outlink:hover{
+	color: var(--black) !important;
+}
+
+ /* Dropdown Button */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	font-family: "Jost", sans-serif;
+	font-size: 16px;
+	display: none;
+  position: absolute;
+  transform: translate(-15px,0px);
+  background-color: var(--white);
+ 	padding: -30px;
+
+
+  min-width: 130px;
+  z-index: 1;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: var(--black);
+  background-color: var(--white);
+  visibility: visible;
+  outline: 4px solid var(--black); 
+  margin-top: 18px;
+  margin-bottom: -7px;
+	border-radius: 8px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: var(--black); color: var(--white); outline: 4px solid var(--white); }
+
+/* Show the dropdown menu on hover */
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+
+body{
+	
+	background-image: url("/assets/img/bgTest.png");
+}
+
+.hold{
+		z-index: -11;
+		height: fit-content;
+  	min-height: 100% !important;
+    backdrop-filter: blur(15px);
+  	background: linear-gradient(0deg, rgba(10,5,18,0.2) 0%, rgba(26,0,117,0.2) 54%, rgba(147,177,255,0.2) 88%);
+
+  	padding: 10px;
+
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.main{
+
+		font-family: "Jost", sans-serif;
+		font-size: 16px;
+		color: var(--white);
+		width: 60%;
+		height: fit-content;
+  	min-height: 100% !important;
+    background-color: var(--gray);
+    overflow-wrap: normal;
+
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    padding: 23px;
+    padding-bottom: 0px;
+
+    outline: 5px solid var(--black); 
+    border-radius: 10px;
+}
+
+.menu{
+		margin: -23px;
+		margin-bottom: -24px;
+		width: calc(100% + 33px);
+		padding: 6px;
+		padding-bottom: 17px;
+		display: inline-block;
+		background-color: var(--black);
+		outline: 5px solid var(--black); 
+    border-radius: 10px 10px 0px 0px;
+}
+.content{
+transform: translate(0px,-55px);
+
+}
+.submenu{
+	display: inline-block;
+	font-size: 20px;
+	padding: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 6px;
+	margin-bottom: -6px;
+	background-color: var(--gray);
+	width: max-content;
+}
+.submenu:hover > .outlink{
+	color: var(--black) !important;
+}
+.submenu:hover{
+
+	background-color: var(--white);
+}
+
+.title{
+	font-size: 36px;
+	font-weight: 900;
+	text-decoration: underline;
+}
+.img{
+	display: inline-block;
+}
+
+h1{
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: -10px;
+}
+h2{
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom: -10px;
+}
+h3{
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: -10px;
+}
+h4{
+	font-size: 14px;
+	color: var(--ltgray);
+	font-weight: normal;
+	font-style: italic;
+}
+h5{
+	font-size: 16px;
+	font-weight: normal;
+	background-color: var(--black);
+	color: var(--black);
+}
+h5:hover{
+	font-size: 16px;
+	font-weight: normal;
+	background-color: var(--black);
+	color: var(--white);
+}
+.date{
+	color: var(--ltgray);
+	text-align: right;
+}
+.logo{
+
+	font-family: "Jost", sans-serif;
+	margin: 20px;
+	font-size: 100px;
+	font-weight: 900;
+	text-align: center;
+	color: var(--white);
+	text-shadow: 3px 3px var(--black),4px 4px var(--black),5px 5px var(--black), 6px 6px var(--black),7px 7px var(--black),8px 8px var(--black), 9px 9px var(--black);
+}
+
+</style>
+
+
+ 
+<div class="hold">
+<div class=logo>
+	talky.games
+
+</div>
+	<div class="main">
+
+			<div class="menu">
+				
+				<div class="submenu">
+					<a href="google.com" class="outlink"> Home </a>
+				</div>
+				<div class="dropdown">
+					<div class="submenu">
+						<a href="google.com" class="outlink"> Posts </a>
+						<div class="dropdown-content">
+							{% for post in site.posts %}
+
+							    <a href="{{ post.url }}">{{ post.title }}</a>
+							    <a href="{{ post.url }}">{{ post.title }}</a>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			
+				
+			</div><br><br><br>
+			<div class="date">
+				Written By: {{page.author}}<br>
+				{{page.postdate}}
+			</div>
+<div class="content">
+			<span class="title"> {{page.title}} </span>
+			
+				{{content}}	
+			 </div>
+			
+	</div>
+
+</div>

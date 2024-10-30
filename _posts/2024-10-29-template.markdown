@@ -1,0 +1,35 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: posts
+title: Blog Template
+postdate: Month XX, XXXX
+tags: aTag
+author: author
+permalink: "/template"
+
+---
+
+# header 1 #
+Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis lectus ipsum pellentesque auctor litora nulla. Avel ornare ipsum mollis facilisi vel bibendum. Sed vehicula platea mollis aptent ridiculus! Sit blandit class luctus aenean faucibus aenean eget. Eget ut curae ac; sit accumsan maximus eu hac. Praesent lorem nam morbi ultrices auctor porttitor.
+
+## header 2 *italics test* ##
+*Tincidunt cras mauris id eros ex lobortis. Torquent imperdiet mattis augue porttitor nisi elementum tristique euismod. Potenti potenti cras quam varius at a libero. Integer posuere non vivamus cras ullamcorper tellus justo placerat? Senectus eleifend consectetur laoreet velit nisi ut. Tortor maximus interdum lacinia cras sodales lacus neque. Molestie rutrum at euismod maximus aenean varius. Praesent ante condimentum fermentum; mi risus lacinia molestie. Vehicula tincidunt libero in; ut gravida netus. Facilisis fermentum rutrum dui senectus hac etiam.*
+
+### header 3 image of fool ###
+
+<img src="/assets/img/c.gif" class="outline"><br>
+
+#### subtext commenting on the image ####
+
+##### Porta mi faucibus primis mi lacus condimentum fusce urna. Sed congue convallis pellentesque porta mi egestas parturient nulla donec. Proin inceptos ad ullamcorper sodales gravida enim sociosqu. Bibendum est quis eros mauris auctor vivamus efficitur est. Suspendisse netus adipiscing mus interdum ligula pulvinar. Consequat auctor ex malesuada scelerisque donec laoreet mauris. Consequat sed volutpat accumsan penatibus dignissim molestie. #####
+
+`` yeah ``
+
+Augue volutpat sapien diam iaculis blandit nibh elit. Metus rhoncus pretium commodo integer odio neque convallis ornare. Justo vel duis sem velit lectus lobortis arcu commodo efficitur? Senectus conubia vel senectus facilisi venenatis ultrices sapien magnis. Adipiscing semper non ligula fermentum velit aenean facilisi ad. Iaculis mi sit augue ornare leo tempus. Velit nisl ullamcorper porttitor dui; nullam nec. Praesent penatibus nec torquent vestibulum ridiculus ante convallis facilisi. Vivamus mi gravida felis dapibus vehicula auctor nec pretium.
+
+Dignissim non nisi lorem ornare potenti aenean. Euismod at ultrices platea praesent luctus class lacus. Euismod molestie vehicula nulla, commodo velit lacinia condimentum. Netus hac lectus mollis varius ridiculus euismod. Maximus suscipit faucibus quam nostra euismod fusce aliquam. Pharetra varius class nunc ante non phasellus pretium conubia. Pulvinar vivamus urna in sit facilisis facilisi amet. Suspendisse facilisi bibendum ante sed curae class potenti. In amet amet dictumst condimentum porttitor nascetur sodales vitae. Pulvinar non varius non accumsan augue molestie malesuada.
+
+# further reading #
+- [Lorem Ispum Generator](https://loremipsum.io/generator?n=5&t=p)
