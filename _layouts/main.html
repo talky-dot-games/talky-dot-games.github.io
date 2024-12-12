@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap" rel="stylesheet">
 
 
-<title>sirmilkman - {{page.title}} </title>
+<title>talky.games - {{page.title}} </title>
 
 <style>
 
@@ -102,7 +102,7 @@ body{
 .hold{
 		z-index: -11;
 		height: fit-content;
-  	min-height: 100% !important;
+  	min-height: 99% !important;
     backdrop-filter: blur(15px);
   	background: linear-gradient(0deg, rgba(10,5,18,0.2) 0%, rgba(26,0,117,0.2) 54%, rgba(147,177,255,0.2) 88%);
 
@@ -184,6 +184,8 @@ transform: translate(0px,-55px);
 	font-size: 36px;
 	font-weight: 900;
 	text-decoration: underline;
+	text-align: center;
+	margin-left: auto;
 }
 .img{
 	display: inline-block;
@@ -202,7 +204,8 @@ h2{
 h3{
 	font-size: 20px;
 	font-weight: 900;
-	margin-bottom: -10px;
+	margin-bottom: 0px;
+
 }
 h4{
 	font-size: 14px;
@@ -234,23 +237,63 @@ h5:hover{
 	font-weight: 900;
 	text-align: center;
 	color: var(--white);
+
 	text-shadow: 3px 3px var(--black),4px 4px var(--black),5px 5px var(--black), 6px 6px var(--black),7px 7px var(--black),8px 8px var(--black), 9px 9px var(--black);
+	transition: all .2s ease;
+}
+.logo:hover{
+
+font-family: "Jost", sans-serif;
+margin: 20px;
+font-size: 100px;
+font-weight: 900;
+text-align: center;
+
+
+text-shadow: 3px 3px var(--black),4px 4px var(--black),5px 5px var(--black), 6px 6px var(--black),7px 7px var(--black),8px 8px var(--black), 9px 9px var(--black);
+transition: all .2s ease;
+
+}
+
+.postWall {
+	margin-left: auto; 
+	margin-right: 0;
+	background-color: green;
+	display: inline-block;
+	position: absolute;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  
+
+}
+
+.block {
+	padding: 10px;
+  flex-grow: 1;
+  flex-basis: 0;
+
 }
 
 .copyright{
 
-font-size: 14px;
-color: var(--ltgray);
-font-weight: normal;
-font-style: italic;
+	font-size: 14px;
+	color: var(--ltgray);
+	font-weight: normal;
+	font-style: italic;
 
-bottom:0;
-left: 0;
-height:35px;
+   bottom:0;
+   left: 0;
+   height:35px;
 
 }
 
 </style>
+
 
 
  
@@ -280,19 +323,23 @@ height:35px;
 					<a href="../index" class="outlink"> About </a>
 				</div>
 				
-			</div><br><br><br>
-			<div class="date">
-				Written By: {{page.author}}<br>
-				{{page.postdate}}
-			</div>
-<div class="content">
-			<span class="title"> {{page.title}} </span>
+			</div><br><br><br><br><br>
 			
+<div class="content">
+	<br>
+				<div class="title"> {{page.title}} </div>
+				<br>
 				{{content}}	
 
 				
+
 			 </div>
-			 <div class="copyright">talky.games 2024 - contact@talky.games</div>	
+		
+			 //<div class="copyright">talky.games 2024 - contact@talky.games</div>
 	</div>
 
+	
+
+
 </div>
+

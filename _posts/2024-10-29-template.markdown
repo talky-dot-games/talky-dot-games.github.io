@@ -5,7 +5,7 @@
 layout: posts
 title: Blog Template
 postdate: Month XX, XXXX
-tags: aTag
+tags: ["public", "mkmn"]
 author: author
 permalink: "/template"
 
@@ -19,7 +19,7 @@ Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis lectus ipsum pellent
 
 ### header 3 image of fool ###
 
-<img src="/assets/img/c.gif" class="outline"><br>
+<img src="../assets/main/cat.gif" class="outline"><br>
 
 #### subtext commenting on the image ####
 
